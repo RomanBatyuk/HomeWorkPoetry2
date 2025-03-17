@@ -1,3 +1,5 @@
+from datetime import datetime
+
 
 def filter_by_state(list_inp: list[dict], state: str='EXECUTED') -> list[dict]:
     '''Функция возвращает новый список словарей, содержащий только те словари, у которых ключ state соответствует указанному значению'''
@@ -6,9 +8,6 @@ def filter_by_state(list_inp: list[dict], state: str='EXECUTED') -> list[dict]:
         if i['state'] == state:
             new_list.append(i)
     return new_list
-
-
-from datetime import datetime
 
 
 def sort_by_date(list_inp: list[dict], rev: bool=False) -> list[dict]:
