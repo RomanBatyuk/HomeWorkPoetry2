@@ -32,14 +32,13 @@ def get_date(my_date: str) -> str:
         "%Y-%m-%dT%H:%M:%S",
         "%Y-%m-%dT%H:%M",
         "%Y-%m-%dT%H",
-        "%Y-%m-%dT",
+        "%Y-%m-%d",
         "%Y-%m",
         "%Y",
         "%H:%M:%S.%f",
         "%M:%S.%f",
         "%S.%f",
-        "%f",
-        "",
+        "%f"
     ]
     for fmt in date_formats:
         try:
