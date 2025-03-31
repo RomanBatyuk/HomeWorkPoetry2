@@ -1,7 +1,6 @@
-from src.masks import get_mask_card_number, get_mask_account
-
-
 import pytest
+
+from src.masks import get_mask_account, get_mask_card_number
 
 
 def test_get_mask_card_number():
@@ -29,15 +28,14 @@ def test_mask_account_proper_disguise():
     assert get_mask_account("73654108430135874305") == "**4305"
 
 
-@pytest.mark.parametrize("mask_account, mask_card", [
-    ("64686473678894779589", "**9589"),
-    ("35383033474447895560", "**5560"),
-    ("73654108430135874305", "**4305")
-])
-
+@pytest.mark.parametrize(
+    "mask_account, mask_card",
+    [("64686473678894779589", "**9589"), ("35383033474447895560", "**5560"), ("73654108430135874305", "**4305")],
+)
 def test_get_mask_account_different_account_formats(mask_account, mask_card):
     """Проверка работы функции с различными счетами"""
     assert get_mask_account(mask_account) == mask_card
+
 
 def test_get_mask_account_not_the_format():
     """Ошибка о не том формате номера счета"""

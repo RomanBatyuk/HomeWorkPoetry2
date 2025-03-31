@@ -22,9 +22,6 @@ def mask_account_card(card_or_account: str) -> str:
     return f"{name_card[0]} {name_card[1]} {get_mask_card_number(str_numbers_card)}"
 
 
-from datetime import datetime
-
-
 def get_date(my_date: str) -> str:
     """Функция конвертирования даты"""
     date_formats = [
@@ -38,7 +35,7 @@ def get_date(my_date: str) -> str:
         "%H:%M:%S.%f",
         "%M:%S.%f",
         "%S.%f",
-        "%f"
+        "%f",
     ]
     for fmt in date_formats:
         try:
