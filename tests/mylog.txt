@@ -1,0 +1,84 @@
+div ok. 2.0
+div error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div ok. 2.0
+div error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+div ok. 2.0
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
+div ok. 2.0
+div_1 error: division by zero. Inputs:  (2, 0), {}
+amount ok. 6
+subtraction ok. 2
+subtraction_1 ok. -2
